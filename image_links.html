@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section {
+            padding: 20px;
+            background-color: #f0f0f0;
+            margin-bottom: 20px;
+        }
+        nav {
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-right: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+        .grid img {
+            max-width: 100%;
+            height: auto;
+        }
+        .menu-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu-list li {
+            margin-bottom: 10px;
+        }
+        .menu-list li img {
+            max-width: 100px;
+            height: auto;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#menu">Menu</a>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to our website! Explore our gallery and menu below.</p>
+    <a href="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=600 ">
+        <img src=""C:\Users\lenovo\Desktop\images\pexels-luis-gomes-546819.jpg"" alt="Technology Image">
+    </a>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="grid">
+        <a href="https://www.pexels.com/photo/brown-wooden-house-on-edge-of-cliff-1028225/">
+            <img src=""C:\Users\lenovo\Desktop\images\pexels-eberhard-grossgasteiger-1366909.jpg"" alt="Nature Image 1">
+        </a>
+        <a href="https://images.pexels.com/photos/298821/pexels-photo-298821.jpeg?auto=compress&cs=tinysrgb&w=600">
+            <img src=""C:\Users\lenovo\Desktop\images\pexels-stein-egil-liland-3408744.jpg"" alt="Nature Image 2">
+        </a>
+        <a href="https://www.pexels.com/photo/first-perspective-photography-of-hanging-bridge-1761279/">
+            <img src=""C:\Users\lenovo\Desktop\images\pexels-alex-montes-1820563.jpg"" alt="Nature Image 3">
+        </a>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <ul class="menu-list">
+        <li>
+            <a href="https://www.pexels.com/photo/white-and-brown-cooked-dish-on-white-ceramic-bowls-958545/">
+                <img src=""C:\Users\lenovo\Desktop\images\pexels-robin-stickel-70497.jpg"" alt="Food 1">
+                Food Item 1
+            </a>
+        </li>
+        <li>
+            <a href="https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src=""C:\Users\lenovo\Desktop\images\pexels-ash-376464.jpg"" alt="Food 2">
+                Food Item 2
+            </a>
+        </li>
+        <li>
+            <a href="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                <img src=""C:\Users\lenovo\Desktop\images\pexels-ella-olsson-1640777.jpg"" alt="Food 3">
+                Food Item 3
+            </a>
+        </li>
+    </ul>
+</section>
+
+</body>
+</html>
